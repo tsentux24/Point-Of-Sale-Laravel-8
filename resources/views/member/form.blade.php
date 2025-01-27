@@ -19,6 +19,15 @@
                         </div>
                     </div>
                     <div class="form-group row">
+                        <label for="paket" class="col-lg-2 col-lg-offset-1 control-label">Paket Member</label>
+                        <div class="col-lg-6">
+                            <select name="paket" id="paket" class="form-control" required>
+                                <option value="">--Pilih Paket Member--</option>
+                            </select>
+                            <span class="help-block with-errors"></span>
+                        </div>
+                    </div>
+                    <div class="form-group row">
                         <label for="telepon" class="col-lg-2 col-lg-offset-1 control-label">Telepon</label>
                         <div class="col-lg-6">
                             <input type="text" name="telepon" id="telepon" class="form-control" required>

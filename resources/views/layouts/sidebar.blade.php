@@ -40,6 +40,11 @@
                 </a>
             </li>
             <li>
+                <a href="{{ route('paket.index') }}">
+                    <i class="fa fa-id-card"></i> <span>Paket Member</span>
+                </a>
+            </li>
+            <li>
                 <a href="{{ route('supplier.index') }}">
                     <i class="fa fa-truck"></i> <span>Supplier</span>
                 </a>
@@ -96,6 +101,11 @@
             <li>
                 <a href="{{ route('transaksi.baru') }}">
                     <i class="fa fa-cart-arrow-down"></i> <span>Transaksi Baru</span>
+                </a>
+            </li>
+            <li>
+                <a href="{{ route('member.index') }}">
+                    <i class="fa fa-id-card"></i> <span>Member</span>
                 </a>
             </li>
             @endif
